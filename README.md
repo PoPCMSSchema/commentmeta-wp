@@ -17,7 +17,18 @@ Implementation for WordPress of contracts from package "Comment Meta"
 Via Composer
 
 ``` bash
-$ composer require getpop/commentmeta-wp
+$ composer require getpop/commentmeta-wp dev-master
+```
+
+**Note:** Your `composer.json` file must have the configuration below to accept minimum stability `"dev"` (there are no releases for PoP yet, and the code is installed directly from the `master` branch):
+
+```javascript
+{
+    ...
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    ...
+}
 ```
 
 ([PoP](https://github.com/leoloso/PoP) must be installed)
